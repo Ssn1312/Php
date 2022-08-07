@@ -1,0 +1,83 @@
+/*Для товаров*/
+* {
+    box-sizing: border-box;
+}
+.product-item {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 2px solid #F5F5F5;
+    background: white;
+    font-family: "Open Sans",sans-serif;
+    transition: .3s ease-in;
+
+
+}
+.product-item:hover {
+    border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+    display: inline-block;
+    width: 100%;
+
+}
+.product-list {
+    background: #fafafa;
+    padding: 15px 0;
+}
+.product-list h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    margin: 0 0 10px 0;
+}
+.price {
+    font-size: 16px;
+    color: #fc5a5a;
+    display: inline-flex;
+    margin-bottom: 12px;
+
+}
+
+/*Категория товаров*/
+
+.title{
+    text-align: center;
+    font-size: 60px;
+    color: #fc5a5a;
+}
+
+.category{
+
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.product-inner {
+    width: 180px;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+
+}
+
+.product-wrap img {
+    display: block;
+    width: 100%;
+}
+
+.product-info {
+    padding-bottom: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.product-title a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* */
+
